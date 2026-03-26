@@ -1,0 +1,171 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Dec 4, 2025, 3:41:12 PM
+    Author     : M-15
+*/
+
+body{
+    background-color: #be9b7b;
+    font-family: 'Calibri';
+}
+.registration-form{
+    background-color: #fff4e6;
+    padding:1em;
+    width: 30%;
+    margin: 2em auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 0px #00005577;
+}
+input{
+    display: block;
+    width: 85%;
+    margin: .5em auto;
+    padding: .5em;
+    margin-top: .1em;
+    border-radius: 5px;
+    border: solid 1px #3c2f2f; 
+}
+label{
+    font-size: .8em;
+}
+input[type='submit']{
+    background-color: #ff4444;
+    color: #ffffff;
+}
+input[type='submit']:hover{
+    background-color: #ff4444;
+    color: #ffffff;
+}
+.navbar{
+    background-color: #854442;
+    border-radius: 7px;
+    text-align: center;
+}
+.right-nav{
+    text-align: right;
+    display: inline-block;
+    width: 25%;
+    margin: 0px;
+}
+
+.left-nav{
+    text-align: left;
+    display: inline-block;
+    width: 65%;
+    margin: 0px;
+}
+.right-nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding: .8em;
+}
+.left-nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding: .8em;
+}
+.right-nav li:hover{
+    background-color: #ff4444;
+}
+.left-nav li:hover{
+    background-color: #ff4444;
+}
+.right-nav li:active{
+    background-color: #ff4444;
+}
+.left-nav li:active{
+    background-color: #ff4444;
+}
+
+.logo{
+    background-image: url('logoo.png');
+    background-size: contain;
+    background-repeat: no-repeat;   
+    background-position: center;
+    width: 1em;
+}
+.a{
+    text-decoration: none;
+    color: white;
+}
+.navbar a {
+    text-decoration: none;
+    color: #fff4e6;
+    font-weight: bold;
+}
+.title{
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    color: #00005577;
+}
+.alert{
+    font-size: .8em;
+    font-weight: bold;
+    text-align: center;
+    color: #f05555;
+}
+
+.container{
+    width: 90%;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    margin-top: 15px;
+    background-color: #be9b7b;
+    min-height: 40vh;
+}
+
+.banner{
+    min-height: 22vh;
+    position: relative;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.profile-pic{
+    background-color: #ffffff;
+    background-image: url('pfp.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 16vh;
+    height: 16vh;
+    border-radius: 100px;
+    position: absolute;
+    top: 12vh;
+    left: 8vh;
+}
+#name{
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    top: 18vh;
+    left: 28vh;
+    font-size: 2em;
+    color: #854442;
+    font-weight: bold;
+}
+.post-container{
+    width: 100%;
+    margin: auto;
+    margin-top:10vh;
+    box-sizing: border-box;
+}
+#post{
+    widows: 100%;
+    margin: auto 10px;
+    box-sizing: border-box;
+}
+#post-area{
+    width: 100%;
+    height: 3em;
+    resize: none;
+    margin: auto 30px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
